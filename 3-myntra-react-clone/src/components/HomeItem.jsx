@@ -17,7 +17,7 @@ const HomeItem = ({item}) => {
         </div>
         <div className="End">
             <button className="btn-add-bag" onClick={() => console.log("item click")}>Add to Bag</button>
-        <i onclick="addToWishlist(${item.id},event)" className="fa-regular dil fa-heart"></i>
+        <i onClick="addToWishlist(${item.id},event)" className="fa-regular dil fa-heart"></i>
          </div>
     </div>
 }
